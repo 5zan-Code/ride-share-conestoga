@@ -1,30 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@5zan-Code 
-KeyurPatel0202
-/
-ride-share-app
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-ride-share-app/app.js /
-@KeyurPatel0202
-KeyurPatel0202 update connection changes (mongoose)
-Latest commit 0835472 now
- History
- 1 contributor
-58 lines (48 sloc)  1.45 KB
 
 const express = require('express');
 const app = express();
@@ -84,18 +57,4 @@ app.use((err, req, res, next)=>{
 const PORT = config.PORT || 3000;
 
 app.listen(PORT,() => console.log(`Server running on port ${PORT}`));
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-You have no unread notifications
+
